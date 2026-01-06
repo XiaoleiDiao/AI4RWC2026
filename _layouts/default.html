@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="{{ '/' | relative_url }}">
+          <img class="brand-logo" src="{{ '/assets/img/ai4rwc_logo.png' | relative_url }}" alt="AI4RWC logo" />
+          <span class="brand-title">{{ site.title }}</span>
+        </a>
+        <nav class="nav">
+          <a href="{{ '/' | relative_url }}">Home</a>
+          <a href="{{ '/call-for-papers' | relative_url }}">Call for Papers</a>
+          <a href="{{ '/invited-speakers' | relative_url }}">Invited Speakers</a>
+          <a href="{{ '/committees-and-organization' | relative_url }}">Committees and Organization</a>
+          <a href="{{ '/past-events' | relative_url }}">Past Events</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container content">
+      {{ content }}
+    </main>
+
+    <footer class="container footer">
+      <div class="footer-note">© {{ site.title }}</div>
+    </footer>
+  </body>
+</html>
