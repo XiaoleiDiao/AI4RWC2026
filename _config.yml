@@ -1,3 +1,11 @@
-theme: jekyll-theme-minimal
-title: My Workshop
-description: Schedule, speakers, registration
+title: AI4RWC@CVPR2026
+description: AI4RWC: The 2nd International Workshop on Vision Intelligence for Real-world Challenges
+theme: minima
+markdown: kramdown
+
+header_pages:
+  - index.md
+  - call-for-papers.md
+  - invited-speakers.md
+  - committees-and-organization.md
+  - past-events.md
